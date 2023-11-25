@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:firstapp/dice_roller.dart';
 
+// ignore: must_be_immutable
 class StyleText extends StatelessWidget {
-  final String text;
-  const StyleText(this.text, {super.key});
+  const StyleText({super.key});
+
 
   @override
   Widget build(context) {
-    return Center(
-      child: Text(
-        text,
-        style: const TextStyle(color: Colors.white, fontSize: 28),
-      ),
+    return const Center(
+      child: DiceRoller(),
     );
   }
 }

@@ -15,9 +15,9 @@ class GradientColor extends StatelessWidget {
           gradient: LinearGradient(
             colors: colors,
             begin: startColorGradient,
-            end: endColorGradient,
+            end: endColorGradient,  
           ),
         ),
-        child: const StyleText("hey"));
+        child: const StyleText());
   }
 }
